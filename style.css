@@ -410,8 +410,7 @@ p {
 /*  */
 @media (max-width: 1024px) {
   
-}
-/* Phones General*/
+/* Mobile General*/
 @media (max-width: 600px) {
 section h2 {
     display: flex;
@@ -446,12 +445,12 @@ section h2 {
 
 div.card {
   position: relative;
-  width: 152px;
-  height: 165px;
+  width: 200px;
+  height: 200px;
   background: rgb(0, 0, 0);
   border-radius: 30px;
   transition: 0.2s ease-in-out;
-  transform: translateY(-20px);
+  transform: translateY(-50px);
 }
 
 div.img {
@@ -461,8 +460,8 @@ div.img {
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
   background-image: url(img/Viditerm_Logo.png);
-  background-position: 5px;
-  background-size: 150px;
+  background-position: 15px;
+  background-size: 170px;
   display: flex;
   align-items: right;
   justify-content: right;
@@ -471,7 +470,7 @@ div.img {
 
 div.text {
   position: absolute;
-  transform: translateY(150px);
+  transform: translateY(170px);
   margin: 20px;
   display: flex;
   flex-direction: column;
@@ -498,12 +497,12 @@ div.text .p {
 
 div.card2 {
   position: relative;
-  width: 152px;
-  height: 165px;
+  width: 200px;
+  height: 200px;
   background: rgb(0, 0, 0);
   border-radius: 30px;
   transition: 0.2s ease-in-out;
-  transform: translateX(0px);
+  transform: translateY(0px);
 }
 
 div.img2 {
@@ -513,8 +512,8 @@ div.img2 {
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
   background-image: url(img/WebSend_Logo.jpg);
-  background-position: 5px;
-  background-size: 150px;
+  background-position: 15px;
+  background-size: 170px;
   display: flex;
   align-items: right;
   justify-content: right;
@@ -523,7 +522,7 @@ div.img2 {
 
 div.text2 {
   position: absolute;
-  transform: translateY(150px);
+  transform: translateY(170px);
   margin: 20px;
   display: flex;
   flex-direction: column;
@@ -550,12 +549,12 @@ div.text2 .p2 {
 
 div.card3 {
   position: relative;
-  width: 152px;
-  height: 165px;
+  width: 200px;
+  height: 200px;
   background: rgb(0, 0, 0);
   border-radius: 30px;
   transition: 0.2s ease-in-out;
-  transform: translateY(20px);
+  transform: translateY(50px);
   
 }
 
@@ -567,8 +566,8 @@ div.img3 {
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
   background-image: url(img/Android_Tools_Logo.jpg);
-  background-position: 5px;
-  background-size: 150px;
+  background-position: 15px;
+  background-size: 170px;
   display: flex;
   align-items: right;
   justify-content: right;
@@ -577,7 +576,7 @@ div.img3 {
 
 div.text3 {
   position: absolute;
-  transform: translateY(150px);
+  transform: translateY(170px);
   margin: 20px;
   display: flex;
   flex-direction: column;
@@ -599,6 +598,18 @@ div.text3 .p3 {
   font-family: 'Lucida Sans' sans-serif;
   font-size: 11px;
   transform: translateY(-75px);
+}
+
+.spacer2{
+  width: 900px;
+  height: 400px;  
+  background-image: url(img/frame1.svg);
+}
+
+.spacer{
+  width: 900px;
+  height: 500px;  
+  background-image: url(img/mound2test.svg);
 }
 }
 
