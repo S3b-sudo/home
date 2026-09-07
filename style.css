@@ -410,7 +410,8 @@ p {
 /*  */
 @media (max-width: 1024px) {
   
-/* Mobile General*/
+}
+/* Phones General*/
 @media (max-width: 600px) {
 section h2 {
     display: flex;
