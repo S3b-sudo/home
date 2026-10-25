@@ -409,17 +409,13 @@ p {
 
 /*  */
 @media (max-width: 1024px) {
-  
-}
-/* Phones General*/
-@media (max-width: 600px) {
 section h2 {
     display: flex;
     position: relative;
     top: -1rem;
     color: transparent;
     font-weight: 900;
-    font-size: 5em;
+    font-size: 10em;
     -webkit-text-stroke: 2px #fff;
     text-transform: uppercase;
     opacity: 0;
@@ -432,7 +428,7 @@ section h2 {
     top: 2rem;
     color: transparent;
     font-weight: 900;
-    font-size: 3em;
+    font-size: 8em;
     -webkit-text-stroke: 2px #fff;
     text-transform: uppercase;
     opacity: 0;
@@ -451,7 +447,7 @@ div.card {
   background: rgb(0, 0, 0);
   border-radius: 30px;
   transition: 0.2s ease-in-out;
-  transform: translateY(-50px);
+  transform: translateY(-20px);
 }
 
 div.img {
@@ -555,7 +551,198 @@ div.card3 {
   background: rgb(0, 0, 0);
   border-radius: 30px;
   transition: 0.2s ease-in-out;
-  transform: translateY(50px);
+  transform: translateY(25px);
+  
+}
+
+
+div.img3 {
+  position: relative;
+  width: 100%;
+  height: 50%;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  background-image: url(img/Android_Tools_Logo.jpg);
+  background-position: 15px;
+  background-size: 170px;
+  display: flex;
+  align-items: right;
+  justify-content: right;
+}
+
+
+div.text3 {
+  position: absolute;
+  transform: translateY(170px);
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: space-around;
+  color: #FFFFFF;
+}
+
+div.text3 .h33 {
+  position: relative;
+  transform: translateY(-78px);
+  font-family: 'Lucida Sans' sans-serif;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+}
+
+div.text3 .p3 {
+  position: relative;
+  font-family: 'Lucida Sans' sans-serif;
+  font-size: 11px;
+  transform: translateY(-75px);
+}
+}
+
+/* Phones General*/
+@media (max-width: 600px) {
+section h2 {
+    display: flex;
+    position: relative;
+    top: -1rem;
+    color: transparent;
+    font-weight: 900;
+    font-size: 5em;
+    -webkit-text-stroke: 2px #fff;
+    text-transform: uppercase;
+    opacity: 0;
+    animation: fadeInUpH2 1s ease forwards;
+}
+
+.prjtxt {
+    display: flex;
+    position: absolute;
+    top: 2rem;
+    color: transparent;
+    font-weight: 900;
+    font-size: 3em;
+    -webkit-text-stroke: 2px #fff;
+    text-transform: uppercase;
+    opacity: 0;
+    animation: fadeInUpH2 1s ease forwards;
+}
+
+.cards {
+  display: block;
+  padding: 10px;
+}
+
+div.card {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background: rgb(0, 0, 0);
+  border-radius: 30px;
+  transition: 0.2s ease-in-out;
+  transform: translateY(-40px);
+}
+
+div.img {
+  position: relative;
+  width: 100%;
+  height: 50%;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  background-image: url(img/Viditerm_Logo.png);
+  background-position: 15px;
+  background-size: 170px;
+  display: flex;
+  align-items: right;
+  justify-content: right;
+}
+
+
+div.text {
+  position: absolute;
+  transform: translateY(170px);
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: space-around;
+  color: #FFFFFF;
+}
+
+div.text .h3 {
+  position: relative;
+  transform: translateY(-70px);
+  font-family: 'Lucida Sans' sans-serif;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+}
+
+div.text .p {
+  position: relative;
+  transform: translateY(-65px);
+  font-family: 'Lucida Sans' sans-serif;
+  color: #999999;
+  font-size: 12px;
+}
+
+div.card2 {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background: rgb(0, 0, 0);
+  border-radius: 30px;
+  transition: 0.2s ease-in-out;
+  transform: translateY(0px);
+}
+
+div.img2 {
+  position: relative;
+  width: 100%;
+  height: 50%;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  background-image: url(img/WebSend_Logo.jpg);
+  background-position: 15px;
+  background-size: 170px;
+  display: flex;
+  align-items: right;
+  justify-content: right;
+}
+
+
+div.text2 {
+  position: absolute;
+  transform: translateY(170px);
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: space-around;
+  color: #FFFFFF;
+}
+
+div.text2 .h32 {
+  position: relative;
+  transform: translateY(-75px);
+  font-family: 'Lucida Sans' sans-serif;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+}
+
+div.text2 .p2 {
+  position: relative;
+  font-family: 'Lucida Sans' sans-serif;
+  color: #999999;
+  font-size: 12px;
+  transform: translateY(-70px);
+}
+
+div.card3 {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background: rgb(0, 0, 0);
+  border-radius: 30px;
+  transition: 0.2s ease-in-out;
+  transform: translateY(40px);
   
 }
 
